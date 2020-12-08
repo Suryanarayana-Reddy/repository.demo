@@ -1,0 +1,327 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User navigates to Demo Web Shop home page and click on Login link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 7,
+        "name": "− Successful login with valid login credentials",
+        "description": "Description: This feature will test successful login functionality",
+        "id": "login-action;−-successful-login-with-valid-login-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11561287101,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on login page",
+            "match": {
+              "location": "Stepdef_login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5379942500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters all valid data",
+            "match": {
+              "location": "Stepdef_login.user_enters_all_valid_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1462723001,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on Log in",
+            "match": {
+              "location": "Stepdef_login.click_on_Log_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2891106899,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "login should be successful",
+            "match": {
+              "location": "Stepdef_login.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Successful_login"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "User navigates to Demo Web Shop home page and click on Login link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 27,
+        "name": "− Unsuccessful login with invalid login credentials",
+        "description": "",
+        "id": "login-action;−-unsuccessful-login-with-invalid-login-credentials;−;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10956724600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on login page",
+            "match": {
+              "location": "Stepdef_login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5322051200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter Email  as \"fffad.gmail.com\" and Password as \"abcdegf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fffad.gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "abcdegf",
+                  "offset": 53
+                }
+              ],
+              "location": "Stepdef_login.i_enter_Email_as_and_Password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111582700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on Log in",
+            "match": {
+              "location": "Stepdef_login.click_on_Log_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 716517100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "login should be Unsuccessful",
+            "match": {
+              "location": "Stepdef_login.login_should_be_Unsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Unsuccessful_login"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "User navigates to Demo Web Shop home page and click on Login link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 28,
+        "name": "− Unsuccessful login with invalid login credentials",
+        "description": "",
+        "id": "login-action;−-unsuccessful-login-with-invalid-login-credentials;−;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11237194300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on login page",
+            "match": {
+              "location": "Stepdef_login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5334532800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter Email  as \"suryapulagam99@gmail.com\" and Password as \"abcde\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "suryapulagam99@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "abcde",
+                  "offset": 62
+                }
+              ],
+              "location": "Stepdef_login.i_enter_Email_as_and_Password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1106746101,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on Log in",
+            "match": {
+              "location": "Stepdef_login.click_on_Log_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192831199,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "login should be Unsuccessful",
+            "match": {
+              "location": "Stepdef_login.login_should_be_Unsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Unsuccessful_login"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "User navigates to Demo Web Shop home page and click on Login link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 29,
+        "name": "− Unsuccessful login with invalid login credentials",
+        "description": "",
+        "id": "login-action;−-unsuccessful-login-with-invalid-login-credentials;−;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12379130500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on login page",
+            "match": {
+              "location": "Stepdef_login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6248791600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter Email  as \"abcd.abcd.gmail.com\" and Password as \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd.abcd.gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "123",
+                  "offset": 57
+                }
+              ],
+              "location": "Stepdef_login.i_enter_Email_as_and_Password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147155201,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on Log in",
+            "match": {
+              "location": "Stepdef_login.click_on_Log_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 689743600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "login should be Unsuccessful",
+            "match": {
+              "location": "Stepdef_login.login_should_be_Unsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Unsuccessful_login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "src/test/java/featuredemos/login_democart.feature",
+    "tags": []
+  }
+]
